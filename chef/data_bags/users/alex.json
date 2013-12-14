@@ -1,0 +1,10 @@
+{
+  "name": "data_bag_item_users_alex",
+  "json_class": "Chef::DataBagItem",
+  "chef_type": "data_bag_item",
+  "data_bag": "users",
+  "raw_data": {
+    "id": "alex",
+    "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEA1SKTUOFKf42mZGk6IsqpdliSrAmzYRQ1uXT3cYKRQa4J6bqkTnMaEZ49RW1C0WZGo//7qeglGFsBPIYzq7B48GWeT7Kjepw+azn1kHrjKuJ8QDwBa4EZRYCN6wlCHoUiZfi+PfpvIZlNcc599DFSuRLGLvmwGMgHnGrDkc+V5Ws= alex@iTiny.local"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "data_bag_item_ssh_known_hosts_github",
+  "json_class": "Chef::DataBagItem",
+  "chef_type": "data_bag_item",
+  "data_bag": "ssh_known_hosts",
+  "raw_data": {
+    "id": "github",
+    "fqdn": "github.com"
+  }
+}

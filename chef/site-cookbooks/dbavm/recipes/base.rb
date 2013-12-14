@@ -1,0 +1,5 @@
+include_recipe "timezone"
+include_recipe "sysctl"
+include_recipe "ntp"
+include_recipe "ubuntu-basics"
+include_recipe "fail2ban"

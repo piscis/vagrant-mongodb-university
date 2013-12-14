@@ -1,0 +1,10 @@
+# Ignore idea project
+.idea
+
+# Vagrant
+.vagrant
+
+# Misc
+*.*~
+.*~
+

@@ -1,0 +1,44 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'apt'
+cookbook 'apache2'
+cookbook 'openssh'
+cookbook 'nodejs'
+cookbook 'npm'
+cookbook 'sudo'
+cookbook 'user',            :git => 'https://github.com/fnichol/chef-user.git'
+
+
+cookbook 'mongodb',         :git => 'https://github.com/higanworks-cookbooks/mongodb-10gen.git'
+cookbook 'nginx',           :git => 'https://github.com/opscode-cookbooks/nginx.git'
+cookbook 'serverdensity',   :git => 'https://github.com/serverdensity/chef-serverdensity.git'
+
+cookbook 'java',            :git => 'https://github.com/opscode-cookbooks/java.git'
+
+cookbook 'redisio',         :git => 'https://github.com/brianbianco/redisio.git'
+
+cookbook 'fail2ban'
+cookbook 'postfix'
+
+cookbook 'ssh_known_hosts', :git => 'https://github.com/piscis/chef-ssh_known_hosts.git'
+cookbook 'ubuntu-basics',   :git => 'https://github.com/piscis/chef-ubuntu-basics.git'
+cookbook 'sysctl',          :git => 'https://github.com/piscis/chef-sysctl.git'
+cookbook 'php',             :git => 'https://github.com/piscis/chef-php.git'
+cookbook 'ntp',             :git => 'https://github.com/piscis/chef-ntp.git'
+cookbook 'timezone',        :git => 'https://github.com/piscis/chef-timezone.git'
+cookbook 'php-fpm',         :git => 'https://github.com/piscis/chef-php-fpm.git'
+cookbook 'ssh_keys',        :git => 'https://github.com/piscis/chef-ssh_keys.git'
+cookbook 'memcached',       :git => 'https://github.com/piscis/chef-memcached.git'
+
+
+
+# cookbook 'chef-client'
+# cookbook 'apache2', '>= 1.0.0'
+# cookbook 'rvm',
+#   :git => 'https://github.com/fnichol/chef-rvm'
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'
