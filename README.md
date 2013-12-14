@@ -6,7 +6,7 @@ This image provides a basebox installation for mongodb university in particular:
 * M102: MongoDB for DBAs
 * M101JS: MongoDB for Node.js Developers
 
-It will setup MongoDB and NodeJS together with the corresponding drivers nessesary to work with MongoDB.
+It will setup MongoDB and NodeJS together with the corresponding drivers necessary to work with MongoDB.
 
 ### Setup
 
