@@ -1,6 +1,6 @@
-inlcude_recipe 'dbavm::base'
-inlcude_recipe 'dbavm::ssh'
-inlcude_recipe 'dbavm::mail'
+include_recipe 'dbavm::base'
+include_recipe 'dbavm::ssh'
+include_recipe 'dbavm::mail'
 
 include_recipe 'java'
 
