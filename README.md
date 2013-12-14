@@ -28,7 +28,7 @@ You can start a manually chef run by executing the following commands:
 
 1. Make sure the vagrant vm is running
 2. Open a terminal and cd into the chef directory with `cd chef`
-3. Execute knife solo with the vagrant node file by entering: ` knife solo cook vagrant@192.168.33.22 node/vagrant.json --identity-file ../.vagrant.d/insecure_private_key`
+3. Execute knife solo with the vagrant node file by entering: ` knife solo cook vagrant@192.168.33.22 node/vagrant.json --identity-file ../../.vagrant.d/insecure_private_key`
 4. Enjoy the chef run :-)
 
 ### Tested
