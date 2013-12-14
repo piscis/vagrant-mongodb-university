@@ -32,6 +32,6 @@ You can start a manually chef run by executing the following commands:
 4. Enjoy the chef run :-)
 
 ### Tested
-This was tested on Mac Os X Mavericks (10.9) / Vagrant (1.3.5) / Virtualbox (4.2.18 r88780) / Ruby 1.9.3p484
+Tested on Mac Os X Mavericks (10.9) / Vagrant (1.3.5) / Virtualbox (4.2.18 r88780) / Ruby 1.9.3p484
 
 ### MIT License (MIT)
