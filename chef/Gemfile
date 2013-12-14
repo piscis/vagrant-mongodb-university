@@ -1,6 +1,9 @@
 source :rubygems
 
 gem 'knife-solo'
+gem 'knife-solo_data_bag'
+gem 'chef'
+gem 'bundler'
 gem 'librarian'
 gem 'librarian-chef'
 gem 'vagrant', "~> 1.0.5"
