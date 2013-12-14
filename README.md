@@ -1,7 +1,7 @@
 mongodb-dba-course
 ==================
 
-This image provides a basebox installation for mongodb university in particular:
+This repository provides a "basic vagrant" installation for mongodb university, in particular:
 
 * M102: MongoDB for DBAs
 * M101JS: MongoDB for Node.js Developers
