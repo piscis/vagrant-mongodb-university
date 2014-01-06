@@ -28,7 +28,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
   # your network.
-  config.vm.network :public_network
+  config.vm.network :public_network, :use_dhcp_assigned_default_route => true
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
