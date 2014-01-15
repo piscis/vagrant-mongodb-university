@@ -21,6 +21,8 @@ It will setup MongoDB and NodeJS together with the corresponding drivers necessa
 From the base directory of this repository run `vagrant up`. This will download a pre-packaged VagrantVM. Please note during the
 initialisation phase of vagrant you will be asked to pick a network adapter.
 
+When the VM is running execute `vagrant ssh` to SSH into the box.
+
 ## Build your own VM
 
 ### Setup
