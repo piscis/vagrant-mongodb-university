@@ -27,6 +27,7 @@ When the VM is running execute `vagrant ssh` to SSH into the box.
 
 ### Setup
 
+* Open a terminal and switch to the build directory `cd build`
 * Make sure you have a decend ruby version installed e.g. `ruby 1.9.3p484`
 * Download and install Virtualbox from [https://www.virtualbox.org/](https://www.virtualbox.org/) https://www.virtualbox.org/
 * Download and install vagrant from [http://www.vagrantup.com/](http://www.vagrantup.com/) http://www.vagrantup.com/
@@ -34,6 +35,14 @@ When the VM is running execute `vagrant ssh` to SSH into the box.
 * Install chef/knife `gem install chef bundler knife-solo knife-solo_data_bag librarian librarian-chef`
 * Before starting vagrant cd into chef dir. and type `librarian-chef update`. This should install all necessary cookbook dependencies
 * To start the vm type `vagrant up`
+
+### With build script
+
+* Open a terminal and switch to the build directory `cd build`
+* Execute the build script `./build.sh`
+* Wait for the script to finish
+* **Optional:** Create a box image by packaging the VM. More info (here)[http://docs.vagrantup.com/v2/cli/package.html]
+
 
 ### Start working
 
