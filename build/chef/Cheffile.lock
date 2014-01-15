@@ -2,19 +2,18 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     apache2 (1.8.14)
-    apt (2.3.0)
-    aws (1.0.0)
-    bluepill (2.3.0)
+    apt (2.3.4)
+    bluepill (2.3.1)
       rsyslog (>= 0.0.0)
     build-essential (1.4.2)
-    chef_handler (1.1.4)
-    fail2ban (2.0.4)
-      yum (< 3.0.0)
+    fail2ban (2.1.2)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
     iptables (0.12.0)
     mongodb-10gen (0.1.10)
       apt (>= 0.0.0)
       mongodb-10gen (>= 0.0.0)
-    mysql (4.0.10)
+    mysql (4.0.18)
       build-essential (~> 1.4)
       openssl (~> 1.1)
     nodejs (1.3.0)
@@ -24,22 +23,23 @@ SITE
     npm (0.1.2)
       nodejs (>= 0.0.0)
     ohai (1.1.12)
-    openssh (1.3.0)
+    openssh (1.3.2)
       iptables (>= 0.0.0)
     openssl (1.1.0)
     partial_search (1.0.6)
     postfix (3.0.4)
-    rsyslog (1.9.0)
-    runit (1.4.6)
+    rsyslog (1.10.2)
+    runit (1.5.8)
       build-essential (>= 0.0.0)
-      yum (< 3.0.0)
-    sudo (2.2.2)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    sudo (2.3.0)
     ulimit (0.3.2)
-    windows (1.11.0)
-      chef_handler (>= 0.0.0)
     xml (1.2.0)
       build-essential (>= 0.0.0)
-    yum (2.4.4)
+    yum (3.0.4)
+    yum-epel (0.2.0)
+      yum (~> 3.0)
 
 GIT
   remote: https://github.com/brianbianco/redisio.git
@@ -68,24 +68,23 @@ GIT
 GIT
   remote: https://github.com/opscode-cookbooks/java.git
   ref: master
-  sha: ac899afcc6bb1b92e6100b8c059a29ba6198d1ca
+  sha: c17fa2cb621f1e4d22b280b5636789861c2ea3a6
   specs:
-    java (1.16.1)
-      aws (>= 0.0.0)
-      windows (>= 0.0.0)
+    java (1.18.1)
 
 GIT
   remote: https://github.com/opscode-cookbooks/nginx.git
   ref: master
-  sha: 6edd1191ef519fa7ee2f23a9bc8a0ad19dfc7821
+  sha: 3c73362c3471edd462074908b5980f5ee7f2166c
   specs:
-    nginx (2.0.9)
+    nginx (2.2.0)
       apt (~> 2.2)
       bluepill (~> 2.3)
       build-essential (~> 1.4)
       ohai (~> 1.1)
       runit (~> 1.2)
-      yum (< 3.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
 
 GIT
   remote: https://github.com/piscis/chef-memcached.git

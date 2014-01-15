@@ -8,6 +8,21 @@ This repository provides a "basic vagrant" installation for mongodb university,e
 
 It will setup MongoDB and NodeJS together with the corresponding drivers necessary to work with MongoDB.
 
+## Getting started
+
+### Setup
+
+* Make sure you have a decend ruby version installed e.g. `ruby 1.9.3p484`
+* Download and install Virtualbox from [https://www.virtualbox.org/](https://www.virtualbox.org/) https://www.virtualbox.org/
+* Download and install vagrant from [http://www.vagrantup.com/](http://www.vagrantup.com/) http://www.vagrantup.com/
+
+### Start the VM
+
+From the base directory of this repository run `vagrant up`. This will download a pre-packaged VagrantVM. Please note during the
+initialisation phase of vagrant you will be asked to pick a network adapter.
+
+## Build your own VM
+
 ### Setup
 
 * Make sure you have a decend ruby version installed e.g. `ruby 1.9.3p484`

@@ -8,14 +8,14 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "https://s3-eu-west-1.amazonaws.com/ffuenf-vagrant-boxes/ubuntu/ubuntu-13.04-server-amd64.box"
+  config.vm.box_url = "https://content.wuala.com/contents/yellowbean/Share/vagrant/mongo-university/mongodb-dba-v1.0.2.box/?dl=1&key=OMI9AeITgm82"
 
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "mongodb-dba-v1.0.1"
+  config.vm.box = "mongodb-dba-v1.0.2"
 
   # Use vagrant-omnibus to install chef client
   config.omnibus.chef_version = :latest
